@@ -2,6 +2,7 @@
 node_modules
 /dist
 /tests/unit/components/__snapshots__/*
+/tests/unit/pages/__snapshots__/*
 
 
 # local env files

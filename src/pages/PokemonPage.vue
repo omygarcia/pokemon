@@ -33,7 +33,7 @@
             }
         },
         methods:{
-            async mixPokemonArry(){
+            async mixPokemonArray(){
                 this.pokemonArr = await getPokemonOptions();
                 //console.log(this.pokemonArr);
                 const rndInt = Math.floor(Math.random()*4);
@@ -60,12 +60,12 @@
                 this.showAnswer = false;
                 this.message = "";
                 this.pokemonArr = [];
-                this.mixPokemonArry();
+                this.mixPokemonArray();
             }
         },
         mounted(){
             //console.log('mounted');
-            this.mixPokemonArry();
+            this.mixPokemonArray();
         }
     }
 </script>
